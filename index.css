@@ -1,0 +1,275 @@
+body{
+	padding:0;
+	margin:0;
+	background-color:white;
+	width:90%;
+}
+header{
+	font-family:Colonna MT;
+	color:rgb(169,14,21);
+	height:60px;
+}
+#header-title{
+	font-size:45px;
+	padding-left: 30px;
+	position:absolute;
+	top:-30px;
+	
+}
+header #navbar{
+	position:absolute;
+	top:8px;
+	right:180px;
+	
+}
+hr{
+	color:white;
+	width:110.5%;
+}
+#navbar ul{
+	list-style-type: none;
+	font-family:Colonna MT;
+	font-size:25px;
+}
+#navbar ul li{
+	display: inline;
+
+}
+#navbar ul li a{
+	color:black;
+	text-decoration: none;
+	padding:10px;
+	
+}
+#navbar ul li a:hover{
+	color:black;
+	background-color:rgb(169,14,21);
+	border-radius:20px;
+}
+#welcome-section{
+	border:1px solid black;
+	width:55%;
+	height:65%;
+	margin-top:5%;
+	border-radius:25px;
+	box-shadow:8px 8px black;
+	margin-left:25%;
+	right:20%;
+	background-color:white;
+}
+#welcome-section #img-section{
+	width:300px;
+	height:280px;
+	border-radius:15px;
+	margin-top:10%;
+	margin-left:5%;
+	box-shadow:3px 3px 5px 5px black;
+}
+#name-section,#web-section{
+	float:right;
+	font-family:Colonna MT;
+	color:rgb(169,14,21);
+}
+#name-section{
+	position:relative;
+	bottom:330px;
+	right:60px;
+	text-align:center;
+	font-size:30px;
+}
+#web-section{
+	position:relative;
+	bottom:310px;
+	right:-200px;
+	text-align:center;
+	font-size:25px;
+}
+#more{
+	position:relative;
+	bottom:250px;
+	left:400px; 
+	font-size:16px;
+	color:black;
+	text-align:justify;
+}
+#projects{
+	width:70%;
+	height:90%;
+	margin-left:20%;
+	margin-right:20%;
+}
+#project-header{
+	color:rgb(169,14,21);
+	font-size:32px;
+	text-align:center;
+	padding-left:100px;
+	font-family:Colonna MT;
+	margin-top:110px;
+}
+#first{
+	width:40%;
+	height: 50%;
+	float:left;
+	margin-left:50px;
+}
+.project-img{
+	width:300px;
+	height:280px;
+	position:relative;
+	bottom:-10px;
+	left:43px;
+	border-radius:15px;
+	box-shadow:3px 3px 5px 5px black;
+}
+.project-tile{
+	position:relative;
+	top:-10px;
+	margin-left:120px;
+	color:rgb(169,14,21);
+	font-size:25px;
+	font-family:Colonna MT;
+}
+#second{
+	width:40%;
+	height: 50%;
+	float:right;
+	margin-right:50px;
+	margin-top:-20px;
+}
+.project-img-one{
+	width:300px;
+	height:280px;
+	position:relative;
+	bottom:-10px;
+	left:43px;
+	border-radius:15px;
+	box-shadow:3px 3px 5px 5px black;
+}
+.project-tile-one{
+	position:relative;
+	top:-10px;
+	margin-left:120px;
+	color:rgb(169,14,21);
+	font-size:25px;
+	font-family:Colonna MT;
+}
+#third{
+	width:40%;
+	height: 50%;
+	float:left;
+	margin-left:50px;
+	margin-right:300px;
+}
+.project-img-two{
+	width:300px;
+	height:280px;
+	position:relative;
+	bottom:-10px;
+	left:43px;
+	border-radius:15px;
+	box-shadow:3px 3px 5px 5px black;
+}
+.project-tile-two{
+	position:relative;
+	top:-10px;
+	margin-left:120px;
+	color:rgb(169,14,21);
+	font-size:25px;
+	font-family:Colonna MT;
+}
+#forth{
+	width:40%;
+	height: 50%;
+	float:right;
+	margin-right:50px;
+	position:relative;
+	bottom:330px;
+}
+.project-img-three{
+	width:300px;
+	height:280px;
+	position:relative;
+	bottom:-10px;
+	left:43px;
+	border-radius:15px;
+	box-shadow:3px 3px 5px 5px black;
+}
+.project-tile-three{
+	position:relative;
+	top:-10px;
+	margin-left:120px;
+	color:rgb(169,14,21);
+	font-size:25px;
+	font-family:Colonna MT;
+}
+#footer{
+	width:110%;
+	height:60%;
+}
+input{
+	margin:6px;
+}
+#number{
+	width:53%;
+	margin-left:15px;
+}
+#country-label,#dropdown{
+	margin:6px;
+	width:45%;
+	margin-left:2px;
+	height:22px;
+}
+#comment{
+	margin:7px;
+
+}
+#comment-label{
+	padding-right:160px;
+	margin:7px;
+}
+#submit{
+	position:relative;
+	bottom:15%;
+	left:28%;
+	border-radius: 30px;
+	height:30px;
+	background-color:rgb(169,14,21);
+	color:white;
+}
+#feedback{
+	font-family:Colonna MT;
+	color:rgb(169,14,21);
+	font-size:35px;
+}
+#form{
+	float:left;
+	padding-left:200px;
+	padding-top:80px;
+}
+#contact{
+	float:right;
+	font-size:20px;
+	position:relative;
+	bottom:335px;
+	left:200%;
+
+}
+#contact-header{
+	color:rgb(169,14,21);
+	font-family:Colonna MT;
+}
+#contact-email,#contact-fb,#contact-github,#contact-youtube,#contact-phone{
+	font-size:18px;
+}
+#footer-two{
+	background-color:rgb(169,14,21);
+	width:111%;
+	height:40%;
+	margin-top:20px;
+}
+@media only screen and(max-width:600px){
+	#footer-two{
+		background-color;
+	}
+	
+}
